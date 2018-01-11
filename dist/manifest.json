@@ -1,0 +1,19 @@
+{
+    "name": "remote-code-execute",
+    "description": "remote-code-execute",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": [
+        "storage",
+        "*://*/*",
+        "webNavigation"
+    ],
+    "background": {
+        "scripts": [ "background.js" ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon":"favicon.png",        
+        "default_title": " "
+    }
+}

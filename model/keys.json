@@ -1,0 +1,4 @@
+{
+    "https://www.facebook.com/" : "console.log('dd')",
+    "https://www.facebook.com/groups/:GROUP_NAME/" : "console.log('uri', REMOTE_CODE_EXECUTE)"
+}
